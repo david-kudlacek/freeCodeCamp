@@ -1,2 +1,2 @@
 # freeCodeCamp
-My solutions for the freeCodeCamp.org projects required to complete their respective course.
+My solutions for the freeCodeCamp.org projects required to complete their respective course and attain certification.
