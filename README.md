@@ -68,3 +68,24 @@ add_time("6:30 PM", "205:12")
 ```
 
 </details>
+
+### Project 3 - Budget App
+
+"Complete the Category class in budget.py. It should be able to instantiate objects based on different budget categories like food, clothing, and entertainment. When objects are created, they are passed in the name of the category. The class should have an instance variable called ledger that is a list."
+
+<details><summary>Instructions and functionality example</summary>
+
+Instructions used to build this project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app
+
+Example output:
+
+```
+*************Food*************
+initial deposit        1000.00
+groceries               -10.15
+restaurant and more foo -15.89
+Transfer to Clothing    -50.00
+Total: 923.96
+```
+
+</details>
