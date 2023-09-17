@@ -96,7 +96,7 @@ def arithmetic_arranger(problems, solutions=False):
     for index, item in enumerate(sub_problems):
       solution = item[3]
       str_solution = str(solution)
-      # Account for negative numbers
+      # Account for negative numbers taking an extra space
       if solution > 0:
         space_size = problem_sizes[index] - get_digit_count(solution)
       else:
