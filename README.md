@@ -12,7 +12,7 @@ You can find respective courses on the https://www.freeCodeCamp.org website.
 
 "Create a function that receives a list of strings that are arithmetic problems and returns the problems arranged vertically and side-by-side. The function should optionally take a second argument. When the second argument is set to True, the answers should be displayed."
 
-<details><summary>Instructions and functionality example</summary>
+<details><summary>Functionality example</summary>
 
 Instructions used to build this project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter
 
@@ -41,7 +41,7 @@ Output:
 > - (optional) a starting day of the week, case insensitive
 The function should add the duration time to the start time and return the result."
 
-<details><summary>Instructions and functionality example</summary>
+<details><summary>Functionality example</summary>
 
 Instructions used to build this project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator
 
@@ -73,7 +73,7 @@ add_time("6:30 PM", "205:12")
 
 "Complete the Category class in budget.py. It should be able to instantiate objects based on different budget categories like food, clothing, and entertainment. When objects are created, they are passed in the name of the category. The class should have an instance variable called ledger that is a list."
 
-<details><summary>Instructions and functionality example</summary>
+<details><summary>Functionality example</summary>
 
 Instructions used to build this project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/budget-app
 
@@ -112,6 +112,59 @@ Percentage spent by category
         i     
         n     
         g     
+```
+
+</details>
+
+### Project 4 - Polygon Area Calculator
+
+"Use object-oriented programming to create a Rectangle class and a Square class. The Square class should be a subclass of Rectangle and inherit methods and attributes."
+
+<details><summary>Functionality example</summary>
+
+Instructions used to build this project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/polygon-area-calculator
+
+Usage example:
+
+```
+rect = shape_calculator.Rectangle(10, 5)
+print(rect.get_area())
+rect.set_height(3)
+print(rect.get_perimeter())
+print(rect)
+print(rect.get_picture())
+
+sq = shape_calculator.Square(9)
+print(sq.get_area())
+sq.set_side(4)
+print(sq.get_diagonal())
+print(sq)
+print(sq.get_picture())
+
+rect.set_height(8)
+rect.set_width(16)
+print(rect.get_amount_inside(sq))
+```
+
+This code should return:
+
+```
+50
+26
+Rectangle(width=10, height=3)
+**********
+**********
+**********
+
+81
+5.656854249492381
+Square(side=4)
+****
+****
+****
+****
+
+8
 ```
 
 </details>
