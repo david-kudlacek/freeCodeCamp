@@ -8,9 +8,13 @@ class Rectangle:
 
     def set_width(self, width):
         self.width = width
+        if type(self) == "Square":
+            self.height = width
 
     def set_height(self, height):
         self.height = height
+        if type(self) == "Square":
+            self.width = height
 
     def get_area(self):
         return self.width * self.height
@@ -44,11 +48,3 @@ class Square(Rectangle):
     def set_side(self, length):
         self.width = length
         self.height = length
-
-    def set_height(self, height):
-        self.width = height
-        self.height = height
-
-    def set_width(self, width):
-        self.width = width
-        self.height = width
