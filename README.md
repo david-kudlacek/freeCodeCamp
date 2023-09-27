@@ -168,3 +168,27 @@ Square(side=4)
 ```
 
 </details>
+
+### Project 5 - Probability Calculator
+
+"Suppose there is a hat containing 5 blue balls, 4 red balls, and 2 green balls. What is the probability that a random draw of 4 balls will contain at least 1 red ball and 2 green balls? While it would be possible to calculate the probability using advanced mathematics, an easier way is to write a program to perform a large number of experiments to estimate an approximate probability.
+
+For this project, write a program to determine the approximate probability of drawing certain balls randomly from a hat."
+
+<details><summary>Functionality example</summary>
+
+Instructions used to build this project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/probability-calculator
+
+Usage example:
+
+```
+hat = Hat(black=6, red=4, green=3)
+probability = experiment(hat=hat,
+                  expected_balls={"red":2,"green":1},
+                  num_balls_drawn=5,
+                  num_experiments=2000)
+```
+
+Since this is based on random draws, the probability will be slightly different each time the code is run.
+
+</details>
